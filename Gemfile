@@ -30,6 +30,10 @@ gem 'rb-readline'
 
 gem 'thin'
 
+group :production do
+  gem 'mysql2'
+end
+
 group :development do
   gem 'capistrano-rails'
   gem 'capistrano-rbenv', '~> 2.0', require: false

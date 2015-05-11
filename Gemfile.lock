@@ -101,6 +101,7 @@ GEM
     minitest (5.6.1)
     multi_json (1.11.0)
     multi_test (0.1.2)
+    mysql2 (0.3.18)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (2.9.2)
@@ -510,6 +511,7 @@ DEPENDENCIES
   factory_girl_rails
   jbuilder (~> 2.0)
   jquery-rails
+  mysql2
   rails (= 4.1.1)
   rb-readline
   rspec-rails
