@@ -25,8 +25,8 @@ Rails.application.configure do
   # Disable Rails's static asset server (Apache or nginx will already do this).
   config.serve_static_assets = false
 
-  config.action_controller.default_url_options = { host: 'http://151.80.233.77/rails' }
-
+  config.relative_url_root = "/app1"
+  
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
