@@ -25,7 +25,7 @@ Rails.application.configure do
   # Disable Rails's static asset server (Apache or nginx will already do this).
   config.serve_static_assets = false
 
-  config.action_controller.default_url_options = { host: 'myproduction.com' }
+  #config.action_controller.default_url_options = { host: 'myproduction.com' }
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
