@@ -29,6 +29,7 @@ gem 'spring',        group: :development
 gem 'rb-readline'
 
 gem 'thin'
+gem 'rack'
 
 group :production do
   gem 'mysql2'

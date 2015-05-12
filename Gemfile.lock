@@ -512,6 +512,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mysql2
+  rack
   rails (= 4.1.1)
   rb-readline
   rspec-rails
