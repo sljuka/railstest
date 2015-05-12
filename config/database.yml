@@ -25,8 +25,8 @@ production:
   encoding: utf8
   database: railstest
   pool: 5
-  username: <%= ENV['RAILS_DB_USER'] %>
-  password: <%= ENV['RAILS_DB_PASS'] %>
+  username: 
+  password: 
 
 cucumber:
   <<: *test
