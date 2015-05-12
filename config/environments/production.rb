@@ -25,6 +25,8 @@ Rails.application.configure do
   # Disable Rails's static asset server (Apache or nginx will already do this).
   config.serve_static_assets = false
 
+  config.action_controller.default_url_options = { host: 'myproduction.com' }
+
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
@@ -47,6 +49,9 @@ Rails.application.configure do
 
   # Set to :debug to see everything in the log.
   config.log_level = :info
+
+
+  config.action_controller.default_url_options = { host: 'myproduction.com' }
 
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
