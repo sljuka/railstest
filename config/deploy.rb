@@ -45,4 +45,5 @@ namespace :deploy do
 
 end
 
+after "deploy:updated", "deploy:migrate"
 after "deploy:publishing", "deploy:restart"
